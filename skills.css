@@ -1,0 +1,202 @@
+.skill-ring {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(73, 65, 65, 0.1)
+
+}
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(39, 38, 38, 0.1),
+    -0.5px -0.5px 0px rgb(58, 57, 57),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+
+}
+.col-row-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner {
+    /* font-weight: 600; */
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* =========================================HTML========================================= */
+.cir_html {
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_html 2.7s linear forwards;
+    /* animation: amin_html linear; */
+    /* animation-timeline: viwe(); */
+    /* animation-range: entry 0% cover 40%; */
+}
+
+@keyframes amin_html {
+
+    100% {
+        stroke-dashoffset: 165;
+    }
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skil-name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* =========================================CSS======================================== */
+.cir_CSS {
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_css 2.7s linear forwards;
+}
+
+@keyframes amin_css {
+
+    100% {
+        stroke-dashoffset: 118;
+        /* Hold it here */
+    }
+}
+
+
+
+/* ==============================JS======================================= */
+
+.cir_js {
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_js 2.7s linear forwards;
+}
+
+@keyframes amin_js {
+    100% {
+        stroke-dashoffset: 207;
+        /* Hold it here */
+    }
+}
+
+
+/* ==============================PHP==================== */
+.cir_php {
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_php 2.7s linear forwards;
+}
+
+@keyframes amin_php {
+    100% {
+        stroke-dashoffset: 259;
+        /* Hold it here */
+    }
+}
+
+/* ===================== angular=================== */
+
+
+.cir_ang{
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_eng 2.7s linear forwards;
+}
+@keyframes amin_eng {
+
+
+    100% {
+        stroke-dashoffset: 306;
+        /* Hold it here */
+    }
+}
+
+
+/* ==========================JQ=================== */
+.cir_jq{
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_jq 2.7s linear forwards;
+}
+@keyframes amin_jq {
+    100% {
+        stroke-dashoffset: 236;
+        /* Hold it here */
+    }
+}
+
+
+/* =================wordpresss======================= */
+.cir_word{
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_word 2.7s linear forwards;
+}
+@keyframes amin_word{
+
+    100% {
+        stroke-dashoffset: 48;
+        /* Hold it here */
+    }
+}
+
+/* =======================react==================== */
+
+.cir_react{
+    fill: none;
+    stroke: rgb(247, 173, 2);
+    stroke-width: 10px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: amin_react 2.7s linear forwards;
+}
+@keyframes amin_react{
+    100% {
+        stroke-dashoffset: 354;
+        /* Hold it here */
+    }
+}
+
